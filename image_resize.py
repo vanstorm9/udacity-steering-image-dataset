@@ -30,7 +30,7 @@ for files in root:
 	img2 = img.resize((new_width, new_height), Image.ANTIALIAS)
 
 
-	saveStr = rootSave  + files + ".png"
+	saveStr = rootSave  + files
 	img2.save(saveStr, "PNG")
 	
 	i = i + 1
